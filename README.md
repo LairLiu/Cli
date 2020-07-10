@@ -12,6 +12,8 @@
 
 
 ## create
+
 > 新建项目
 > 可选择项目类型
+
 `ddd create <app-name> -f -t <templatename>`
