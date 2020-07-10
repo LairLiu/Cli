@@ -6,6 +6,9 @@
   "directories": {
     "lib": "lib"
   },
+  "bin": {
+    "ddd": "lib/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/LairLiu/Cli.git"
   },
+  "keywords": [
+    "typescript",
+    "cli",
+    "node"
+  ],
   "author": "lka",
   "license": "MIT",
   "bugs": {
@@ -20,11 +28,23 @@
   },
   "homepage": "https://github.com/LairLiu/Cli#readme",
   "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.0",
+    "ora": "^4.0.4",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
     "@types/commander": "^2.12.2",
     "@types/fs-extra": "^9.0.1",
     "@types/handlebars": "^4.1.0",
     "@types/inquirer": "^6.5.0",
     "@types/node": "^14.0.20",
+    "@types/ora": "^3.2.0",
     "@types/xml2js": "^0.4.5"
   }
 }

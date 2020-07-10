@@ -22,4 +22,24 @@ function cleanArgs(cmd: { [x: string]: any; options: any[] }) {
 }
 
 
-export { cleanArgs }
+import inquirer from 'inquirer';
+/**
+ * 弹出窗口让用户确认
+ * @param msg 要确认的信息
+ */
+async function confirm(msg: string): Promise<boolean> {
+  const { confirm } = await inquirer.prompt([
+    {
+      name: 'confirm',
+      type: 'confirm',
+      message: msg
+    }
+  ])
+  return confirm;
+}
+
+// async function choice(msg: string, choices: { name: string, value: string }[]){
+
+// }
+
+export { cleanArgs, confirm }

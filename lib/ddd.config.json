@@ -1,0 +1,9 @@
+{
+    "basePath": "",
+    "template": {
+        "demo":{
+            "git":"",
+            "golbal":""
+        }
+    }
+}

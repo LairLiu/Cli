@@ -1,0 +1,21 @@
+{
+  "basePath": "",
+  "template": {
+    "egret 4.1.0": {
+      "git": "https://github.com/LairLiu/Cli.git",
+      "golbal": "D:/LKA/Code/Modules/Cli/template/egret 4.1.0"
+    },
+    "egret 5.2.3": {
+      "git": "",
+      "golbal": ""
+    },
+    "html": {
+      "git": "",
+      "golbal": ""
+    },
+    "vue": {
+      "git": "",
+      "golbal": ""
+    }
+  }
+}
